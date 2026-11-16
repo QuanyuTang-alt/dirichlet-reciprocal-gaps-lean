@@ -1,0 +1,24 @@
+module
+import DirichletReciprocalGap
+
+/-! Dedicated audit of support only. The main spectral theorem is absent. -/
+#print axioms DirichletReciprocalGap.lower_residual
+#print axioms DirichletReciprocalGap.upper_derivative_coefficients
+#print axioms DirichletReciprocalGap.upper_endpoint_sum
+#print axioms DirichletReciprocalGap.affine_coefficient_nonneg
+#print axioms DirichletReciprocalGap.barrier_max_bound
+#print axioms DirichletReciprocalGap.exterior_scalar_bound
+#print axioms DirichletReciprocalGap.square_completion
+#print axioms DirichletReciprocalGap.normalization_identity
+#print axioms DirichletReciprocalGap.gap_scaling
+#print axioms DirichletReciprocalGap.CapacityAdmissible
+#print axioms DirichletReciprocalGap.cutoffEnergy
+#print axioms DirichletReciprocalGap.cutoffCapacity
+#print axioms DirichletReciprocalGap.admissible_mono
+#print axioms DirichletReciprocalGap.cutoffCapacity_mono
+#print axioms DirichletReciprocalGap.cutoffCapacity_empty
+#print axioms DirichletReciprocalGap.cutoffCapacity_subset_zero
+#print axioms DirichletReciprocalGap.measure_le_cutoffEnergy
+#print axioms DirichletReciprocalGap.measure_le_cutoffCapacity
+#print axioms DirichletReciprocalGap.measure_zero_of_cutoffCapacity_zero
+#print axioms DirichletReciprocalGap.differential_norm_sq

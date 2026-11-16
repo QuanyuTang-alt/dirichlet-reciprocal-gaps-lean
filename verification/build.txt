@@ -1,0 +1,10 @@
+⚠ [18178/18184] Replayed DirichletReciprocalGap.Supporting
+warning: DirichletReciprocalGap/Supporting.lean:36:37: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [18180/18184] Built DirichletReciprocalGap.Capacity (15s)
+✔ [18182/18184] Built DirichletReciprocalGap (7.8s)
+Build completed successfully (18184 jobs).

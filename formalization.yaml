@@ -1,0 +1,50 @@
+version: v0.4
+project:
+  name: "P28 Dirichlet reciprocal gaps — checked partial foundations"
+  description: "Scalar Riccati algebra and actual smooth-cutoff capacity foundations; Theorem 1.2 and equality rigidity remain unformalized."
+  authors: ["Quanyu Tang"]
+  responsible_maintainers: ["Quanyu Tang"]
+  license: Apache-2.0
+classification:
+  arxiv: [math.SP, math.AP]
+  msc2020: [35P15, 49R05]
+sources:
+  - title: "The Ashbaugh–Benguria reciprocal-gap conjecture for Dirichlet eigenvalues"
+    authors: ["Yanyang Li", "Quanyu Tang", "Haiqi Zhang"]
+    type: paper
+    id: "arXiv:2607.01135v1"
+    location: "https://arxiv.org/abs/2607.01135v1"
+    relationship: formalizes
+    author_endorsement: not-contacted
+    note: "Partial foundations only; source authors did not review this code."
+status:
+  scope: "PARTIAL B. Full actual spectral inequality, capacity equality iff, Lipschitz corollary and disconnected extension remain unformalized."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      models: []
+      framework: "Doubao Work"
+      tool_setup: "Lean/Lake, pinned mathlib, GitHub CLI. Model identifier not verified."
+  notes: "AI-assisted source reading, discovery and support proof repair; no independent human review."
+review:
+  status: self-assessed
+  reviewers: []
+  notes: "Same-assistant scalar/capacity semantics and Lean kernel/axiom audit; principal acceptance not passed."
+fidelity:
+  divergences: "Partial support only; no fake spectrum or assumed intermediate principal steps."
+alignment:
+  namespace: DirichletReciprocalGap
+  statements:
+    - source: "Source smooth-cutoff capacity basics"
+      lean: DirichletReciprocalGap.measure_zero_of_cutoffCapacity_zero
+      module: DirichletReciprocalGap.Capacity
+      status: proved-support
+    - source: "Riccati appendix endpoint collection"
+      lean: DirichletReciprocalGap.upper_endpoint_sum
+      module: DirichletReciprocalGap.Supporting
+      status: proved-conditional-support
+    - source: "Theorem 1.2 including equality and Lipschitz corollary"
+      status: not-formalized

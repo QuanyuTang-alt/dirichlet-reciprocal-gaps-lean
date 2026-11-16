@@ -1,0 +1,18 @@
+{
+  "version": "2607.01135v1",
+  "algorithm": "SHA-256",
+  "sources": [
+    {
+      "source": "https://arxiv.org/pdf/2607.01135v1",
+      "sha256": "380e4b15ae10299dc950a6f62230a6f8a3fde1a73993a5e5849f1b5ddeee6ad0"
+    },
+    {
+      "source": "https://arxiv.org/src/2607.01135v1",
+      "sha256": "c2289f56e0324579f99e534c9bb641ee3778faa034b7da522c194c5e5c15b400"
+    },
+    {
+      "source": "arXiv source member PDEs18_arxiv_v1.tex",
+      "sha256": "ddd754aff13b8a720ef6e28215690d306b768ce9d4c03af97844d940266a0ba6"
+    }
+  ]
+}
